@@ -1,3 +1,4 @@
+package dan.nov17.santander_project_desafio.domain.model;
 import java.math.BigDecimal;
 
 import jakarta.persistence.Column;

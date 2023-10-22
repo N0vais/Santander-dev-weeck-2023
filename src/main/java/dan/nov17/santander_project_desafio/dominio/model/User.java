@@ -1,3 +1,5 @@
+package dan.nov17.santander_project_desafio.domain.model;
+
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
