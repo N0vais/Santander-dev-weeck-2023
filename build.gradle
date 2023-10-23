@@ -26,6 +26,12 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+tasks.jar {
+  manifest {
+    attributes["Main-Class"] = "dan.nov17.santander_project_desafio.SantanderProjectDesafioApplication"
+  }
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
